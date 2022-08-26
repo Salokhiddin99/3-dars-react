@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main{
+    height: 100vh;
+}
+
+.box{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 200px;
+    justify-content: space-between;
+}
+
+.add{
+    display: block;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: green;
+    color: white;
+    width: 200px;
+    border: solid 1px green;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header{
+    background-color: blue;
+    padding: 20px;
+}
+
+.dark{
+    padding: 20px;
+    background-color: rgba(24, 19, 19, 0.829);
+}
+
+.dark-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: solid 1px #008000;
+    background-color: #008000;
+    color: #fff;
+}
+
+.dark-btn1{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: solid 1px #ff0000;
+    background-color: #ff0000   ;
+    color: #fff;
+}
+
+.header .container , .dark .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    color: #fff;
+    text-align: center; 
+}
+
+.form {
+    padding: 20px 10px 50px 20px ;
+    border: solid 1px ;
+    width: 40%;
+}
+
+input{
+    width: 400px;   
+    height: 40px;
+    padding-left: 10px;
+}
+
+.result-box {
+    width: 600px;
+    border: solid 1px;
+}
+
+.head,
+.body {
+    display: flex;
+    width: 600px;
+}
+
+
+
+.card {
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.id {
+    width: 20px;
+    text-align: center;
+}
+
+.number {
+    text-align: center;
+    width: 25%;
+}
+
+.name {
+    width: 25%;
+    text-align: center;
+}
+
+.control {
+    width: 25%;
+    text-align: center;
+}
+
+.control button{
+    background-color: red;
+    border: red;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 2px;
+}
+
+.alert{
+    background-color: red;
+}
